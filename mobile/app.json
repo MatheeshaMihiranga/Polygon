@@ -1,0 +1,28 @@
+{
+  "expo": {
+    "name": "Employee Task Manager",
+    "slug": "employee-task-manager",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.company.employeetaskmanager"
+    },
+    "android": {
+      "package": "com.company.employeetaskmanager",
+      "adaptiveIcon": {
+        "backgroundColor": "#3B82F6"
+      }
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static"
+    },
+    "plugins": ["expo-router"],
+    "scheme": "employee-task-manager",
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
