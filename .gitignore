@@ -18,3 +18,4 @@ yarn-error.log*
 .expo-shared/
 .eslintcache
 .env.production
+.tools/
